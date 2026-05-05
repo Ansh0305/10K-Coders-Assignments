@@ -1,0 +1,73 @@
+body {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+}
+
+.toolbar-container {
+    background: #000;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tool i {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.highlight i {
+    color: #00c853;
+}
+
+.participants .badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background: #333;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+.bottom-bar {
+    display: flex;
+    align-items: center;
+}
+
+.sharing {
+    background: #00c853;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 0px 0px 0px 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stop-btn {
+    background: #e53935;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 10px;
+    border-radius: 0px 0px 5px 0px;
+    cursor: pointer;
+}
